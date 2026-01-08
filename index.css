@@ -1,0 +1,150 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+
+  font-family: 'Open Sans', 'sans-serif';
+}
+
+.nav{
+  display:flex;
+  justify-content: space-between;
+  height: 75px;
+  align-items: center;
+  
+}
+
+.nav .logo{
+  margin-left: 50px;
+}
+.nav .links{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap:30px;
+ 
+}
+
+.nav .links a{
+  color: rgb(5, 9, 13);
+  text-decoration: none;
+}
+.nav .links a:hover{
+  color:rgb(13, 107, 107);
+}
+
+.nav .btn{
+  border:none;
+  height:30px;
+  width: 150px;
+  margin-right: 100px;
+  border-radius: 3px;
+  background-color: rgb(58, 196, 109);
+  color:aliceblue;
+}
+.nav .btn:hover{
+  background-color: rgb(29, 90, 142);
+  cursor: pointer;
+}
+.hero {
+  width:98.8vw;
+  height: 90vh;
+  background-image: url("assets/hero-bg.png");
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .hero-container .early-btn{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  height:30px;
+  width:200px;
+  color: rgb(17, 188, 17);
+  border-radius: 50px;
+  border:none;
+  margin-left: 190px;
+}
+.hero .hero-container .early-btn:hover{
+  background-color:rgb(17, 188, 17);
+  color:white;
+ 
+}
+ .early-btn:hover .dot{
+  height:5px;
+  width:5px;
+  border-radius: 50%;
+  background-color: rgba(243, 247, 243, 0.667);
+  box-shadow: 0 0 0 4px rgba(241, 244, 242, 0.189);
+}
+
+.early-btn .dot{
+  height:5px;
+  width:5px;
+  border-radius: 50%;
+  background-color: rgba(12, 142, 12, 0.667);
+  box-shadow: 0 0 0 4px rgba(4, 117, 45, 0.189);
+}
+
+.hero-container h1{
+  
+  font-size: 60px;
+  color:aliceblue;
+
+}
+
+.hero-container .special{
+  color:rgb(17, 173, 74);
+  margin-bottom: 10px;
+}
+
+.hero-container p{
+  line-height: 1.6;
+  color:aliceblue;
+  font-size: 15px;
+  margin-left: 29px;
+}
+
+.hero-container  .sp{
+ margin-left: 15px;
+ margin-bottom: 20px;
+}
+.buttons{
+  display:flex;
+  gap:10px;
+  margin-left: 45px;
+}
+.start-btn{
+   margin-left:40px;
+   background-color: rgb(12, 137, 85);
+   gap:10px;
+   display:flex;
+   align-items: center;
+   border:none;
+   height:40px;
+   padding:10px;
+   color:azure;
+   border-radius: 5px;
+}
+
+.start-btn:hover{
+  background-color: azure;
+  color:rgb(12, 137, 85);
+}
+
+.see-btn{
+  width:140px;
+  color:white;
+  background: transparent;
+  border:none;
+  border:1px solid white;
+  border-radius:5px;
+
+}
+.see-btn:hover{
+  background-color:rgb(12, 137, 85);
+  
+}
