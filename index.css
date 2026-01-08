@@ -145,7 +145,8 @@
 
 }
 .see-btn:hover{
-  background-color:rgb(12, 137, 85);
+  background-color:white;
+  color:rgb(12, 137, 85);
   
 }
 
@@ -267,3 +268,47 @@
   gap:10px;
   font-size: 12px;
 }
+
+.ready{
+  margin: 120px 120px 120px 120px;
+  height:330px;
+  background-color: #f6f6ec;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ready h2{
+  margin-bottom: 10px;
+}
+
+.ready #first{
+  text-align: center;
+  font-size: small;
+  color:rgb(155, 162, 168);
+  margin-bottom: 10px;
+}
+
+.ready button{
+  width:180px;
+  display:flex;
+  justify-content: center;
+  gap:10px;
+  height: 35px;
+  align-items: center;
+  background-color: rgb(25, 178, 114);
+  color:white;
+  border:none;
+  border-radius:3px;
+  margin-bottom: 10px;
+}
+.ready button:hover{
+  background-color: white;
+  color:rgb(25, 178, 114);
+}
+.ready #second{
+  font-size: small;
+  color:rgb(155, 162, 168);
+}
+
